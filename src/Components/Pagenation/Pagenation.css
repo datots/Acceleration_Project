@@ -1,0 +1,9 @@
+.page-link:hover {
+  padding: 8px 16px;
+  margin: 4px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

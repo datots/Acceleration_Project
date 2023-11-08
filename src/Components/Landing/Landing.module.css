@@ -1,0 +1,36 @@
+* {
+  background-color: black;
+  background-image: url("../../assets//stars.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+}
+.start {
+  font-family: "Rowdies";
+  align-items: center;
+  font-size: 90px;
+  font-weight: 400px;
+  color: #4980c0;
+}
+
+.form {
+  width: 164px;
+  height: 166px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 50px;
+  color: white;
+  background-color: #4980c0;
+  width: 200px;
+  height: 80px;
+}
+
+p button {
+  background-color: white;
+}

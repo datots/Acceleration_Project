@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar p {
+  margin: 0;
+}
+
+.image-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.image-container img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.popup {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.popup button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #f0f0f0;
+}
+
+.popup button:active {
+  background-color: #ccc;
+}

@@ -1,0 +1,25 @@
+.data-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  background: #fff;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.data-card:hover {
+  transform: scale(1.05);
+}
+
+.data-card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.data-card-body {
+  font-size: 1rem;
+  color: #666;
+}
