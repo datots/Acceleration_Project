@@ -1,36 +1,39 @@
-* {
+header {
   background-color: black;
   background-image: url("../../assets//stars.png");
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
-  height: auto;
-  width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* Change flex-direction to column */
+  justify-content: center;
+  align-items: center;
 }
+
 .start {
   font-family: "Rowdies";
-  align-items: center;
   font-size: 90px;
-  font-weight: 400px;
+  font-weight: 400;
   color: #4980c0;
+  text-align: center;
+  margin-top: 20px; /* Adjust the spacing between form and start */
 }
 
 .form {
   width: 164px;
   height: 166px;
-  margin-top: 150px;
-  margin-bottom: 100px;
+  margin-bottom: 20px; /* Adjust the spacing between form and start */
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .btn {
-  margin-top: 50px;
   color: white;
   background-color: #4980c0;
   width: 200px;
   height: 80px;
-}
-
-p button {
-  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
