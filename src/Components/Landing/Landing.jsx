@@ -6,13 +6,13 @@ const Landing = () => {
   const navigate = useNavigate();
 
   return (
-    <div>
+    <header>
       <img src={form} className={classes.form} />
       <h1 className={classes.start}>Get Started Today</h1>
       <button className={classes.btn} onClick={() => navigate("/registration")}>
         Get Started
       </button>
-    </div>
+    </header>
   );
 };
 

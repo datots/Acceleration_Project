@@ -13,7 +13,7 @@ const Navbar = ({ imageUpload, name }) => {
     <nav className="navbar">
       <p>FORM</p>
       <p>
-        <button onClick={() => navigate("/datafetcher")}>API</button>
+        <button onClick={() => navigate("/datafetcher")}>Press here to go to API page</button>
       </p>
       <p>{name}</p>
       <div className="image-container" onClick={togglePopup}>
